@@ -1,0 +1,345 @@
+layout: {zmk_keyboard: eyelash_corne}
+layers:
+  QWERTY:
+  - 
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - 
+  - 
+  - {t: A, h: LGUI}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: LCTL}
+  - {t: F, h: LSFT}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - {t: J, h: RSFT}
+  - {t: K, h: RCTL}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '''', h: RGUI, s: '"'}
+  - 
+  - 
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - 
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: SPC, h: Nav}
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:backspace$$', h: Num}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  Nav:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - PG UP
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
+  - INS
+  - 
+  - 
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - LCTL
+  - LSFT
+  - 
+  - 
+  - 
+  - 
+  - PG DN
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:backspace-reverse-outline$$
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
+  - 
+  - 
+  - {type: held}
+  - 
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
+  Mouse:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - LCTL
+  - LSFT
+  - 
+  - 
+  - 
+  - 
+  - 
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - 
+  - 
+  - 
+  - 
+  - 
+  - {type: held}
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  Media:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - LCTL
+  - LSFT
+  - 
+  - 
+  - 
+  - 
+  - 
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:skip-next$$
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - OUT BLE
+  - OUT USB
+  - $$mdi:bluetooth-off$$
+  - 
+  - 
+  - 
+  - {type: held}
+  - 
+  - 
+  - STOP
+  - $$mdi:play-pause$$
+  - $$mdi:volume-off$$
+  Num:
+  - 
+  - {t: '[', s: '{'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: ']', s: '}'}
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - {t: ;, s: ':'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '=', s: +}
+  - 
+  - 
+  - 
+  - 
+  - RSFT
+  - RCTL
+  - $$mdi:apple-keyboard-option$$
+  - RGUI
+  - 
+  - 
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: \, s: '|'}
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - {t: ., s: '>'}
+  - {t: '0', s: )}
+  - {t: '-', s: _}
+  - 
+  - {type: held}
+  - 
+  Sym:
+  - 
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - 
+  - 
+  - 
+  - 
+  - RSFT
+  - RCTL
+  - $$mdi:apple-keyboard-option$$
+  - RGUI
+  - 
+  - 
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - (
+  - )
+  - _
+  - {type: held}
+  - 
+  - 
+  Fun:
+  - 
+  - F12
+  - F7
+  - F8
+  - F9
+  - $$mdi:printer-outline$$
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - F11
+  - F4
+  - F5
+  - F6
+  - SLCK
+  - 
+  - 
+  - 
+  - 
+  - RSFT
+  - RCTL
+  - $$mdi:apple-keyboard-option$$
+  - RGUI
+  - 
+  - 
+  - F10
+  - F1
+  - F2
+  - F3
+  - PAUSE BREAK
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - APP
+  - F10
+  - F11
+  - 
+  - 
+  - {type: held}
