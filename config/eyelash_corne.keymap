@@ -35,7 +35,7 @@
 
         base_layer {
             display-name = "QWERTY";
-            bindings = 
+            bindings = <
 // 13: outer_L  Q           W           E           R           T           joy_up      Y           U           I           O           P           outer_R
    &trans       &kp Q       &kp W       &kp E       &kp R       &kp T       &kp UP      &kp Y       &kp U       &kp I       &kp O       &kp P       &trans
 // 15: outer_L  A(gui)      S(alt)      D(ctl)      F(sft)      G           joy_L       joy_press   joy_R       H           J(sft)      K(ctl)      L(alt)      '(gui)      outer_R
@@ -50,7 +50,7 @@
 
         nav_layer {
             display-name = "Nav";
-            bindings = 
+            bindings = <
    &trans  &trans    &trans    &trans    &trans    &trans    &trans  &kp PG_UP  &kp HOME   &kp UP     &kp END    &kp INS    &trans
    &trans  &kp LGUI  &kp LALT  &kp LCTL  &kp LSFT  &trans    &trans  &trans     &trans     &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL   &trans
    &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)  &trans
@@ -61,7 +61,7 @@
 
         mouse_layer {
             display-name = "Mouse";
-            bindings = 
+            bindings = <
    &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
    &trans  &kp LGUI  &kp LALT  &kp LCTL  &kp LSFT  &trans    &trans  &trans  &trans     &trans     &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
    &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans     &mkp MB4   &mkp MB5   &trans     &trans     &trans
@@ -72,7 +72,7 @@
 
         media_layer {
             display-name = "Media";
-            bindings = 
+            bindings = <
    &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans        &trans        &trans        &trans        &trans      &trans
    &trans  &kp LGUI  &kp LALT  &kp LCTL  &kp LSFT  &trans    &trans  &trans  &trans  &trans  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans
    &trans  &trans    &trans    &trans    &trans    &trans    &trans  &trans  &out OUT_BLE  &out OUT_USB  &bt BT_CLR  &trans  &trans  &trans
@@ -83,7 +83,7 @@
 
         num_layer {
             display-name = "Num";
-            bindings = 
+            bindings = <
    &trans  &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT   &trans  &trans  &trans  &trans    &trans    &trans    &trans
    &trans  &kp SEMI   &kp N4  &kp N5  &kp N6  &kp EQUAL  &trans  &trans  &trans  &trans    &kp RSFT  &kp RCTL  &kp RALT  &kp RGUI  &trans
    &trans  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH   &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
@@ -94,7 +94,7 @@
 
         sym_layer {
             display-name = "Sym";
-            bindings = 
+            bindings = <
    &trans  &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC  &trans  &trans  &trans  &trans    &trans    &trans    &trans
    &trans  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS  &trans  &trans  &trans  &trans    &kp RSFT  &kp RCTL  &kp RALT  &kp RGUI  &trans
    &trans  &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
@@ -105,7 +105,7 @@
 
         fun_layer {
             display-name = "Fun";
-            bindings = 
+            bindings = <
    &trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &trans  &trans  &trans  &trans    &trans    &trans    &trans
    &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK         &trans  &trans  &trans  &trans    &kp RSFT  &kp RCTL  &kp RALT  &kp RGUI  &trans
    &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
