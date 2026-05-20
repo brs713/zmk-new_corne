@@ -44,9 +44,9 @@ layers:
   - {t: /, s: '?'}
   - {type: trans}
   - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: SPC, h: Nav}
+  - {t: '$$mdi:keyboard-return$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Mouse}
-  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: SPC, h: Sym}
   - {t: '$$mdi:backspace$$', h: Num}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
   Nav:
